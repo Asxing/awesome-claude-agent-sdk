@@ -15,6 +15,8 @@ const FeaturePlan = z.object({
     ),
     risks: z.array(z.string())
 })
+
+// todo: infer the TypeScript type from the Zod schema
 type FeaturePlan = z.infer<typeof FeaturePlan>
 
 // Convert to JSON Schema and dereference/clean it
@@ -23,7 +25,6 @@ const schemaToUse = await dereferenceAndClean(z.toJSONSchema(FeaturePlan))
 for await (const message of query({
     prompt: 'Provide a detailed specification for implementing user authentication in a web application. Include the feature name, summary, implementation steps with complexity levels, and potential risks. Format the response as structured data.',
     options: {
-        allowedTools: [], // 不需要工具，直接生成结构化输出
         outputFormat: {
             type: 'json_schema',
             schema: schemaToUse
