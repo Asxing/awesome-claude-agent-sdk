@@ -54,3 +54,6 @@ __pycache__/
 *.bak
 *.orig
 *.rej
+
+# Local Claude settings (sensitive)
+.claude/settings.local.json
