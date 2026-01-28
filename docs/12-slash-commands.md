@@ -1,8 +1,7 @@
 ---
 layout: default
-title: 斜杠命令
+title: 12. 斜杠命令
 nav_order: 14
-parent: 高级特性
 ---
 
 # 斜杠命令

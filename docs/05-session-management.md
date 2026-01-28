@@ -1,8 +1,7 @@
 ---
 layout: default
-title: 会话管理
+title: 05. 会话管理
 nav_order: 7
-parent: 会话管理
 ---
 
 # 会话管理

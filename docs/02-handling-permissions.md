@@ -1,8 +1,7 @@
 ---
 layout: default
-title: 权限处理
+title: 02. 权限处理
 nav_order: 4
-parent: 基础入门
 ---
 
 # 权限处理

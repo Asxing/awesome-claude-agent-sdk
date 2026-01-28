@@ -1,8 +1,7 @@
 ---
 layout: default
-title: SDK 简介与安装
+title: 00. SDK 简介与安装
 nav_order: 2
-parent: 基础入门
 ---
 
 # SDK 简介与安装

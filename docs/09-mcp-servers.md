@@ -1,8 +1,7 @@
 ---
 layout: default
-title: MCP 服务器
+title: 09. MCP 服务器
 nav_order: 11
-parent: 工具与扩展
 ---
 
 # MCP 服务器

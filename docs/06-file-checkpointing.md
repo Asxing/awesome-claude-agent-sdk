@@ -1,8 +1,7 @@
 ---
 layout: default
-title: 文件检查点
+title: 06. 文件检查点
 nav_order: 8
-parent: 会话管理
 ---
 
 # 文件检查点

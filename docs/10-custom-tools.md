@@ -1,8 +1,7 @@
 ---
 layout: default
-title: 自定义工具
+title: 10. 自定义工具
 nav_order: 12
-parent: 工具与扩展
 ---
 
 # 自定义工具

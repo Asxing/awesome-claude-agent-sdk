@@ -1,8 +1,7 @@
 ---
 layout: default
-title: 钩子函数
+title: 04. 钩子函数
 nav_order: 6
-parent: 基础入门
 ---
 
 # 钩子函数

@@ -1,8 +1,7 @@
 ---
 layout: default
-title: 流式输入
+title: 01. 流式输入
 nav_order: 3
-parent: 基础入门
 ---
 
 # 流式输入

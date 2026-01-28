@@ -1,8 +1,7 @@
 ---
 layout: default
-title: 技能系统
+title: 13. 技能系统
 nav_order: 15
-parent: 高级特性
 ---
 
 # 技能系统

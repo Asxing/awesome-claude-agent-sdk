@@ -1,8 +1,7 @@
 ---
 layout: default
-title: 子代理
+title: 11. 子代理
 nav_order: 13
-parent: 高级特性
 ---
 
 # 子代理

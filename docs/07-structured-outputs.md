@@ -1,8 +1,7 @@
 ---
 layout: default
-title: 结构化输出
+title: 07. 结构化输出
 nav_order: 9
-parent: 输出与提示
 ---
 
 # 结构化输出

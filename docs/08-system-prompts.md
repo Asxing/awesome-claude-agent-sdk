@@ -1,8 +1,7 @@
 ---
 layout: default
-title: 系统提示词
+title: 08. 系统提示词
 nav_order: 10
-parent: 输出与提示
 ---
 
 # 系统提示词

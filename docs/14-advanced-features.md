@@ -1,8 +1,7 @@
 ---
 layout: default
-title: 高级特性
+title: 14. 高级特性
 nav_order: 16
-parent: 高级特性
 ---
 
 # 高级特性

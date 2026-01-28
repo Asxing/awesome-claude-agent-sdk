@@ -1,8 +1,7 @@
 ---
 layout: default
-title: 用户审批与输入
+title: 03. 用户审批与输入
 nav_order: 5
-parent: 基础入门
 ---
 
 # 用户审批与输入
