@@ -57,3 +57,10 @@ __pycache__/
 
 # Local Claude settings (sensitive)
 .claude/settings.local.json
+
+# Jekyll cache and build files
+docs/_site/
+docs/.jekyll-cache/
+docs/.jekyll-metadata
+.sass-cache/
+Gemfile.lock

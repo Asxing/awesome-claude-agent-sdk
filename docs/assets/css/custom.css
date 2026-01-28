@@ -1,0 +1,177 @@
+/* 中文字体优化 */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+               "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.8;
+}
+
+/* 标题中文优化 */
+h1, h2, h3, h4, h5, h6 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+               "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+}
+
+/* 代码块样式增强 */
+.highlight {
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+pre {
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+code {
+  font-family: "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas, "Courier New", monospace;
+}
+
+/* 行内代码优化 */
+:not(pre) > code {
+  background-color: #f6f8fa;
+  color: #24292f;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* 改善表格在移动端的显示 */
+@media (max-width: 768px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* 导航链接中文优化 */
+.nav-list .nav-list-item {
+  line-height: 1.8;
+}
+
+.nav-list .nav-list-link {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* 侧边栏标题优化 */
+.side-bar .site-title {
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+/* 主内容区域优化 */
+.main-content {
+  line-height: 1.8;
+}
+
+.main-content p {
+  margin-bottom: 1.2rem;
+}
+
+/* 列表样式优化 */
+.main-content ul,
+.main-content ol {
+  margin-bottom: 1.2rem;
+}
+
+.main-content li {
+  margin-bottom: 0.5rem;
+}
+
+/* 引用块优化 */
+blockquote {
+  border-left: 4px solid #0366d6;
+  padding-left: 1rem;
+  color: #6a737d;
+  font-style: italic;
+  margin: 1.5rem 0;
+}
+
+/* 链接样式优化 */
+a {
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 按钮样式优化 */
+.btn {
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 搜索框优化 */
+.search-input {
+  border-radius: 6px;
+  border: 1px solid #d1d5da;
+  transition: border-color 0.2s ease;
+}
+
+.search-input:focus {
+  border-color: #0366d6;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(3, 102, 214, 0.1);
+}
+
+/* 页脚优化 */
+.site-footer {
+  border-top: 1px solid #e1e4e8;
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  color: #6a737d;
+}
+
+/* 代码高亮颜色调整 */
+.highlight .c { color: #6a737d; } /* Comment */
+.highlight .k { color: #d73a49; } /* Keyword */
+.highlight .s { color: #032f62; } /* String */
+.highlight .n { color: #24292f; } /* Name */
+.highlight .o { color: #d73a49; } /* Operator */
+
+/* 移动端优化 */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .main-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .main-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .main-content h3 {
+    font-size: 1.3rem;
+  }
+}
+
+/* 打印样式优化 */
+@media print {
+  .side-bar,
+  .site-footer,
+  .search,
+  .aux-nav {
+    display: none;
+  }
+
+  .main-content {
+    max-width: 100%;
+  }
+}
