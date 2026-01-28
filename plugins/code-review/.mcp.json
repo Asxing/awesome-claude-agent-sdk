@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+        "filesystem": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-filesystem",
+                "/Users/xing/Documents/03-Resource/ghsource/awesome-llm"
+            ]
+        }
+    }
+}
